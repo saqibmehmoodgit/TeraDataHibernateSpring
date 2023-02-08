@@ -26,7 +26,7 @@ public class LocationRestController {
 
 	
 
-	@RequestMapping(value = "/all", //
+	@RequestMapping(value = "/all", // ++++
 			method = RequestMethod.GET) //
 	// @ResponseBody
 	public String hellow() {
@@ -47,3 +47,21 @@ public class LocationRestController {
 	// System.out.println(" finding values is " + person1.getFirstname());
 
 }
+
+ Support for password authentication was removed 
+remote: Please see https://docs.github.com for information on currently recommended modes of authentication.
+
+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
+
+
+
+
+
+url=https://MichaelDrogalis@github.com/derekerdmann/lunch_call.git
+to:
+url=ssh://git@github.com/derekerdmann/lunch_call.git
+
+url = https://github.com/saqibmehmoodgit/TeraDataHibernateSpring.git
+
+url=ssh://git@github.com/saqibmehmoodgit/TeraDataHibernateSpring.git
+
