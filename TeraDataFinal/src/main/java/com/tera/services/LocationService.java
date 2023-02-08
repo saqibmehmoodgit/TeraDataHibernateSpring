@@ -16,15 +16,19 @@ public class LocationService {
 	LocationRepo  locationRepo;
 	
 
-	public Location getByIdLocation()
+	public Location getByIdLocation(long id)
 	{
-		Optional<Location> person = locationRepo.findById((long) 8);
+		Optional<Location> person = locationRepo.findById((long) id);
 		person.get().setAvailability(person.get().getAvailability()*person.get().getAvailability());
-		System.out.println("  calling service location , i am getting it  ");
-        return person.get()  ;///+crepo.
+	    return person.get()  ;
 		
 	}
 	
+	public List<Location> getAllLocation()
+	{
+	    return locationRepo.getAll();  ;
+		
+	}
 	
 	
 }
