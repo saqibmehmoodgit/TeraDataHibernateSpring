@@ -24,13 +24,9 @@ public class LocationRestController {
 	@Autowired
 	PurchaseOrderDetailService  purchaseOrderDetailService;
 
-	@RequestMapping(value = "/size", method = RequestMethod.GET) //
-	@ResponseBody
-	public String eror() {
-		return "ALLAH KAREEM " + locationRepo.count();
-	}
+	
 
-	@RequestMapping(value = "/hello", //
+	@RequestMapping(value = "/all", //
 			method = RequestMethod.GET) //
 	// @ResponseBody
 	public String hellow() {
